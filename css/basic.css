@@ -9,14 +9,13 @@ body{
 }
 
 .navigation{
-  color: white;
   width:100%;
-  background-color: black;
+  background-color: white;
   margin-bottom: 10px;
 }
 
 .navigation td a{
-    color: white;
+    color: #82928A;
     text-decoration: none;
 }
 
@@ -34,90 +33,10 @@ body{
   max-width: 100%;
   vertical-align: bottom;
   text-align: center;
-  width: 11%
+  width: 15%
 }
 
 
-.dropdown-menu{
-  background-color: black;
-}
-
-.dropdown-item{
-  color: white;
-}
-
-
-
-footer, .copy-right{
+.container-nav{
   width:100%;
-  bottom: 0px;
-  
-}
-
-.copy-right > p {
-  color: white;
-  display: block;
-  width: 200px;
-  margin: auto;
-body{
-  background-color: black;
-  min-height: 100%
-}
-.logo{
-  display: block;
-    margin-left: auto;
-    margin-right: auto ;
-}
-
-.navigation{
-  color: white;
-  width:100%;
-  background-color: black;
-  margin-bottom: 10px;
-}
-
-.navigation td a{
-    color: white;
-    text-decoration: none;
-}
-
-.navigation td a:hover{
-  color: pink;
-}
-
-
-.navigation > tr > td {
-  margin:auto;
-}
-
-.navigation tr td {
-  border: 10px;
-  max-width: 100%;
-  vertical-align: bottom;
-  text-align: center;
-  width: 11%
-}
-
-
-.dropdown-menu{
-  background-color: black;
-}
-
-.dropdown-item{
-  color: white;
-}
-
-
-
-footer, .copy-right{
-  width:100%;
-  bottom: 0px;
-  
-}
-
-.copy-right > p {
-  color: white;
-  display: block;
-  width: 200px;
-  margin: auto;
 }
