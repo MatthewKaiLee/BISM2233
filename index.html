@@ -17,6 +17,7 @@
     <link href="css/basic.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/imageMapResizer.min.js"></script>
   </head>
 
   <body>
@@ -34,7 +35,7 @@
           </table>
   </div>
   <div>
-    <img src="assert/imagemap.png" usemap="#image-map" class="img-responsive">
+    <img src="assert/imagemap.png" usemap="#image-map" class="img-responsive" width="100%">
 
     <map name="image-map">
         <area target="" alt="About Us" title="About Us" href="aboutus.html" coords="3,9,1413,1069" shape="rect">
@@ -42,6 +43,12 @@
         <area target="" alt="Off Line Order" title="Off Line Order" href="order.html" coords="2696,1,4092,1059" shape="rect">
     </map>
   </div>
-  </body>
 
+  <script type="text/javascript">
+
+    $('map').imageMapResize();
+
+  </script>
+  </body>
+  
 </html>
