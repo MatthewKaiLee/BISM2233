@@ -410,7 +410,7 @@ ul.tab_list{
   margin-top: 0em;
   padding: 0;
 }
-.get_in_touch h3, .ftr_navi h3 {
+.get_in_touch h3, .ftr_navi h3, .ftr-logo h3 {
 	font-size: 1.4em;
 	margin:0.5em 0 .5em;
 	color: #fff;
@@ -446,7 +446,7 @@ ul.tab_list{
 .ftr-logo a{
 	text-decoration: none;
 }
-.ftr-logo a h3,  .ftr-logo h3{
+.ftr-logo a h3{
 	font-size: /*2.2em*/1.4em;
     color: #fff;
     margin: 0.4em 0 0;

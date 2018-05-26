@@ -14,6 +14,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/imageMapResizer.min.js"></script>
 <!-- //js -->
 <!-- FlexSlider -->
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
@@ -112,9 +113,10 @@ $(document).ready(function() {
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/Y2xKMvnGpuo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					</div>
 					<div class="col-md-4 video-grid-left">
-						<h3>Video about Hong Kong</h3>
-						<p>This is a short video to show where Hong Kong is. However, you can 
-							buy the dessert via our online store without going to that place.</p>
+						<h3>Mango pomelo sago</h3>
+						<p>A delicious dessert that inverted in 1984 by Lei Garden in Hong Kong.
+						This video is about how Mango pomelo sago made.
+						</p>
 							<!--<div class="more m1">
 								<a id="play-video" class="hvr-bounce-to-bottom">See Video</a>
 							</div>-->
@@ -307,6 +309,18 @@ $(document).ready(function() {
 	</div>
 <!-- //welcome-bottom -->
 
+<!--ImageMap-->
+  <div>
+    <img src="images/imagemap.png" usemap="#image-map" class="img-responsive" width="100%">
+
+    <map name="image-map">
+        <area target="" alt="About Us" title="About Us" href="about.html" coords="3,9,1413,1069" shape="rect">
+        <area target="" alt="Our Product" title="Our Product" href="menu.html" coords="1409,12,2682,1062" shape="rect">
+        <area target="" alt="Off Line Order" title="Off Line Order" href="offlineorder.html" coords="2696,1,4092,1059" shape="rect">
+    </map>
+  </div>
+<!--//imageMap-->
+
 <!--footer-->
 	<div class="footer">
 		<div class="container">				 	
@@ -330,6 +344,8 @@ $(document).ready(function() {
 				<h3>Copy Right</h3>
 
 				<p><a href="DisclamerPage.html">Copyright &copy; 2018.Real Hong Kong Dessert</a></p>
+				<P>This page is fictional. It is for assessment purposes only in the course of BISM2233, eBusiness
+systems and strategy, at The University of Queensland.</P>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -338,5 +354,11 @@ $(document).ready(function() {
 <!-- for bootstrap working -->
 		<script src="js/bootstrap.js"> </script>
 <!-- //for bootstrap working -->
+  <script type="text/javascript">
+
+    $('map').imageMapResize();
+
+  </script>
+
 </body>
 </html>
