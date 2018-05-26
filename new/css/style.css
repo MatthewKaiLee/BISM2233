@@ -446,8 +446,8 @@ ul.tab_list{
 .ftr-logo a{
 	text-decoration: none;
 }
-.ftr-logo a h3 {
-	font-size: 2.2em;
+.ftr-logo a h3,  .ftr-logo h3{
+	font-size: /*2.2em*/1.4em;
     color: #fff;
     margin: 0.4em 0 0;
 }
@@ -464,7 +464,7 @@ ul.tab_list{
   font-size: 0.95em;
 }
 .ftr-logo p a {
-	color:#fff;
+	color:/*#fff*/#848484;
 }
 .ftr-logo ul{
 	padding:1em 0;
@@ -798,14 +798,17 @@ h2.typoh2{
 	padding: 15px 10px;
 	font-size: 14px;
 	outline: none;
+	resize: none;
+	width: 100%;
+	margin-top: .3em;
 }
 /*.contact-left input[type="text"],.contact-left input[type="email"]{
 	width: 32.7%;
 	float: left;
 }*/
-.contact-left input[type="email"]{
+/*.contact-left input[type="email"]{
 	margin:0 5px;
-}
+}*/
 .contact-left textarea{
 	min-height: 200px;
 	resize: none;
@@ -1297,7 +1300,7 @@ ul.social-slide li i.mac{
 		font-size: 1.1em;
 	}
 	.ftr-logo a h3 {
-		font-size: 2.5em;
+		font-size: /*2.5em*/1.4em;
 	}
 	.about-grid h3 {
 		font-size: 1.3em;
@@ -1365,7 +1368,7 @@ ul.social-slide li i.mac{
 		padding: 2em 0 3em;
 	}
 	.ftr-logo a h3 {
-		font-size: 1.6em;
+		font-size: /*1.6em*/1.4em;
 	}
 	.ftr:nth-child(2) {
 		margin: 0 0 2em;
