@@ -791,7 +791,7 @@ h2.typoh2{
 .contact-left ul li a:hover{
 	color:#D9A250;
 }
-.contact-left input[type="text"],.contact-left input[type="email"],.contact-left textarea{
+.contact-left input[type="text"],.contact-left input[type="email"],.contact-left textarea, .custom-contact{
 	background: rgba(255, 255, 255, 0.71);
 	border: none;
 	color: #424341;
@@ -799,10 +799,10 @@ h2.typoh2{
 	font-size: 14px;
 	outline: none;
 }
-.contact-left input[type="text"],.contact-left input[type="email"]{
+/*.contact-left input[type="text"],.contact-left input[type="email"]{
 	width: 32.7%;
 	float: left;
-}
+}*/
 .contact-left input[type="email"]{
 	margin:0 5px;
 }
@@ -1209,6 +1209,7 @@ ul.social-slide li i.mac{
 }
 .dinner{
 	background:url(../images/bean-curd-pudding.jpg) no-repeat 0px 0px;
+	background-position: center;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -1319,9 +1320,9 @@ ul.social-slide li i.mac{
 	.dinner-info {
 		padding: 3em 0 0 25em;
 	}
-	.contact-left input[type="text"], .contact-left input[type="email"] {
+	/*.contact-left input[type="text"], .contact-left input[type="email"] {
 		width: 32.6%;
-	}
+	}*/
 	.contact {
 		min-height: 490px;
 	}
@@ -1350,12 +1351,12 @@ ul.social-slide li i.mac{
 	.banner1 {
 		min-height: 190px;
 	}
-	.contact-left:nth-child(1) {
+	/*.contact-left:nth-child(1) {
 		margin: 0 0 2em;
 	}
 	.contact-left input[type="text"], .contact-left input[type="email"] {
 		width: 32.85%;
-	}
+	}*/
 	.ftr {
 		float: left;
 		width: 50%;
@@ -1388,10 +1389,10 @@ ul.social-slide li i.mac{
 	.dinner {
 		margin: 4em 0;
 	}
-	.about-grid {
+	/*.about-grid {
 		float: left;
 		width: 33.33%;
-	}
+	}*/
 	.why-choose-grid {
 		float: left;
 		width: 50%;
@@ -1548,9 +1549,9 @@ ul.social-slide li i.mac{
 	.dinner {
 		min-height: 460px;
 	}
-	.contact-left input[type="text"], .contact-left input[type="email"] {
+	/*.contact-left input[type="text"], .contact-left input[type="email"] {
 		width: 32.7%;
-	}
+	}*/
 }
 @media (max-width:480px){
 	.banner {
@@ -1592,11 +1593,11 @@ ul.social-slide li i.mac{
 	.video-grid-left:nth-child(2) {
 		margin: 1em 0 0;
 	}
-	.about-grid {
+	/*.about-grid {
 		float: none;
 		width: 80%;
 		margin: 0 auto 2em;
-	}
+	}*/
 	.why-choose-grid-hover {
 		padding: 10px;
 	}
@@ -1646,13 +1647,13 @@ ul.social-slide li i.mac{
 	.dinner-info {
 		padding: 1em 0 0 1em;
 	}
-	.contact-left input[type="text"], .contact-left input[type="email"] {
+	/*.contact-left input[type="text"], .contact-left input[type="email"] {
 		width: 100%;
 		padding: 10px;
 	}
 	.contact-left input[type="email"] {
 		margin: .5em 0;
-	}
+	}*/
 	.contact-left textarea {
 		min-height: 140px;
 		margin: .5em 0;
@@ -1725,9 +1726,9 @@ ul.social-slide li i.mac{
 	.ftr-logo {
 		padding: 1em 0 0;
 	}
-	.about-grid/*,.menu-grid*/ {
+	/*.about-grid/*,.menu-grid {
 		width: 100%;
-	}
+	}*/
 	.menu-grd-pos {
 		width: 35%;
 	}
