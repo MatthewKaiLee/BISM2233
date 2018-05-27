@@ -425,7 +425,7 @@ ul.tab_list{
 }
 .ftr_navi ul li a {
 	display: block;
-	padding: 5px 0;
+	/*padding: 5px 0;*/
 	color: #848484;
     font-size: 14px;
 }
@@ -749,7 +749,7 @@ h2.typoh2{
 }
 .contact{
 	padding:6em 0;
-	background:url(../images/6.jpg) no-repeat 0px 0px;
+	background:url(../images/contact-background.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -893,7 +893,7 @@ h2.typoh2{
 /*-- testimonials --*/
 .testimonials{
 	padding:4em 0 6em;
-	background:url(../images/5.jpg) no-repeat 0px 0px;
+	background:url(../images/chef.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -901,10 +901,12 @@ h2.typoh2{
 	-ms-background-size:cover;
 }
 .testimonials h3{
-	color: #fff;
+	/*color: #fff;*/
+	color: #1D2951;
 }
 p.aut{
-	color: #fff;
+	/*color: #fff;*/
+	color: #1D2951;
     font-size: 14px;
     margin: 0.5em auto 2em;
     line-height: 1.8em;
@@ -922,13 +924,14 @@ p.aut{
 	margin:3em 0 0;
 }
 .testimonials-grid-right p{
-	color:#FFFFFF;
+	color:#1D2951;
 	font-size:18px;
 	margin:0;
 	font-family: 'Quicksand', sans-serif;
 }
 .testimonials-grid-right p span{
-	color:#D0A36C;
+	/*color:#D0A36C;*/
+	color: #1D2951;
     font-size: 2em;
 }
 /*------------------ Slider Part starts Here----------*/
@@ -1447,8 +1450,8 @@ ul.social-slide li i.mac{
 		padding: 12px 148px;
 	}
 	.welcome-bottom-grid {
-		float: left;
-		width: 25%;
+		/*float: left;
+		width: 25%;*/
 	}
 	.video-grid-left:nth-child(2) {
 		margin: 2em 0 0;
@@ -1515,8 +1518,8 @@ ul.social-slide li i.mac{
 		margin: 2em 0 0;
 	}
 	.welcome-bottom-grid {
-		width: 50%;
-		margin: 0 0 2em;
+		/*width: 50%;
+		margin: 0 0 2em;*/
 	}
 	.about-grid h3 {
 		font-size: 1em;
@@ -1591,7 +1594,7 @@ ul.social-slide li i.mac{
 		padding: 1em;
 	}
 	.welcome-bottom-grid {
-		margin: 0 0 3em;
+		/*margin: 0 0 3em;*/
 	}
 	.video-grid-left:nth-child(2) {
 		margin: 1em 0 0;
@@ -1842,11 +1845,11 @@ ul.social-slide li i.mac{
 	.facts {
 		padding: 0em 0 1em;
 	}
-	.welcome-bottom-grid {
+	/*.welcome-bottom-grid {
 		float: none;
 		width: 100%;
 		margin: 0 0 2em;
-	}
+	}*/
 	.welcome-bottom-grids {
 		margin: 1.5em 0 0;
 	}
